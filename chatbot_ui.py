@@ -34,7 +34,7 @@ class ChatbotUI:
         self.language.set(langs[0])
         self.language_dropdown.pack(pady=5)
 
-        tk.Label(frame, text="How do you feel? (Write mood)", bg="#050f1e", fg="white").pack(pady=5)
+        tk.Label(frame, text="What's on your mind right now?", bg="#050f1e", fg="white").pack(pady=5)
         self.mood_entry = tk.Entry(frame, textvariable=self.mood)
         self.mood_entry.pack(pady=5)
 
